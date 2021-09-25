@@ -24,8 +24,5 @@ do
     echo "Creating symlink for ${PWD}/${dir}${dirName}.sh >>> ${PWD}/${dirName}.sh"
 
     ln -sf "${PWD}/${dir}${dirName}.sh" "${PWD}/${dirName}.sh"
-#    cp -f "${PWD}/${dir}${dirName}.sh" "${PWD}/${dirName}.sh"
-  else
-#    echo "No script found for ${dirName} in ${dir}"
   fi
 done
