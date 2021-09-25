@@ -3,17 +3,17 @@
 # Required parameters:
 # @raycast.schemaVersion 1
 # @raycast.title autoload
-# @raycast.mode compact
+# @raycast.mode inline
 
 # Optional parameters:
-# @raycast-autoloader.icon ↔️
-# @raycast-autoloader.packageName wotta/raycast-autoloader
-# @raycast-autoloader.needsConfirmation false
+# @raycast.icon ↔️
+# @raycast.packageName wotta/raycast-autoloader
+# @raycast.needsConfirmation false
 
 # Documentation:
-# @raycast-autoloader.description This script command helps you to autoload Raycast scripts from a specific folder.
-# @raycast-autoloader.author Wouter van Marrum
-# @raycast-autoloader.authorURL https://github.com/wotta
+# @raycast.description This script command helps you to autoload Raycast scripts from a specific folder.
+# @raycast.author Wouter van Marrum
+# @raycast.authorURL https://github.com/wotta
 
 for dir in */
 do
