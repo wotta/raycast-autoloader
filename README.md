@@ -13,7 +13,7 @@ git clone git@github.com:wotta/raycast-autoloader.git
 Create a symlink that enabled you to use the autoloader in Raycast. You can use the following command:
 
 ```bash
-cd raycast-autoloader && ln -s "~/raycast-scripts/raycast-autoloader/autoload.sh" "~/raycast-scripts/autoload.sh"  
+ln -s "~/raycast-scripts/raycast-autoloader/autoload.sh"  
 ```
 
 _Best practice:_ Create a folder called `raycast-scripts` and place all extensions in there.
