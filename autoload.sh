@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # Required parameters:
-# @raycast-autoloader.schemaVersion 1
-# @raycast-autoloader.title rc-autoloader
-# @raycast-autoloader.mode compact
+# @raycast.schemaVersion 1
+# @raycast.title autoload
+# @raycast.mode compact
 
 # Optional parameters:
 # @raycast-autoloader.icon ↔️
@@ -23,7 +23,7 @@ do
   then
     echo "Creating symlink for ${PWD}/${dir}${dirName}.sh >>> ${PWD}/${dirName}.sh"
 
-    ln -sf "${PWD}/${dir}${dirName}.sh" "${PWD}/${dirName}.sh"
+    cp -f "${PWD}/${dir}${dirName}.sh" "${PWD}/${dirName}.sh"
   else
     echo "No script found for ${dirName} in ${dir}"
   fi
