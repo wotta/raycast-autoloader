@@ -1,4 +1,4 @@
-# bl-connector
+# Raycast autoloader
 
 raycast autoloader is a small bash script that helps with creating symlinks to a specific directory which then can be used by Raycast to "autoload" extensions.
 
@@ -13,7 +13,7 @@ git clone git@github.com:wotta/raycast-autoloader.git
 Create a symlink that enabled you to use the autoloader in Raycast. You can use the following command:
 
 ```bash
-ln -s "~/raycast-scripts/raycast-autoloader/autoload.sh"  
+cp -f "~/raycast-scripts/raycast-autoloader/autoload.sh" "~/raycast-scripts/autoload.sh"  
 ```
 
 _Best practice:_ Create a folder called `raycast-scripts` and place all extensions in there.
